@@ -1,4 +1,4 @@
-Moja pierwsza gra w Pythonie!
+Moje pierwsze programy w Pythonie!
 ---------------------------------------------------------------------------------------------------------------
 na podstawie [Python Kurs programowania](https://www.youtube.com/watch?v=cnNs8qcWg0Q&list=PL3yDCQ6GKeEyBOF0gZyBvihDv6n0GNsdm) by [P jak Programowanie](https://www.youtube.com/channel/UCwqpR0XraS02wfh2OVHmPwQ)
 

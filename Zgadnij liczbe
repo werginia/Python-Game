@@ -1,0 +1,19 @@
+"""
+Zgadnij liczbe!
+"""
+
+import random
+random.seed()
+
+czyniezgadl = True
+liczba = random.randint(1,100)
+while czyniezgadl:
+  print('Zgadnij moja liczbe(1-100)')
+  sam = int(input())
+  if sam == liczba:
+    print('Brawo, zgadles moja liczbe!')
+    czyniezgadl = False
+  if sam < liczba:
+   print('Sprobuj jeszcze raz! Moja liczba jest wieksza.')
+  if sam > liczba:
+    print('Sprobuj jeszcze raz! Moja liczba jest mniejsza.')

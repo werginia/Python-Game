@@ -1,0 +1,14 @@
+import random
+random.seed()
+
+pczlon = ['Spoleczenstwo obywatelskie', 'Edukacja', 'Sluzba zdrowia', 'Nasza partia', 'Partia rzadzaca', 'Wojsko', 'Unia Europejska', 'Opozycja', 'Zwiazek zawodowy']
+
+dczlon = ['utrudnia', 'ulatwia', 'umozliwia', 'uniemozliwia']
+
+tczlon = ['przerowadzenie reform.', 'budowe nowych drog.', 'wzmocnienie Polski na arenie miedzynarodowej.', 'rozwoj gospodarki.', 'wprowadzenie Euro w Polsce.']
+
+pindex = random.randint(0, len(pczlon) -1)
+dindex = random.randint(0, len(dczlon) -1)
+tindex = random.randint(0, len(tczlon) -1)
+
+print(pczlon[pindex], dczlon[dindex], tczlon[tindex])

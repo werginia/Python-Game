@@ -1,0 +1,6 @@
+while True:
+  x = input('Podaj liczbe ' + str(2) + ':')
+  try:
+    x = int(x)
+  except:
+    print('Nie podales liczby')

@@ -10,3 +10,5 @@ na podstawie [Python Kurs programowania](https://www.youtube.com/watch?v=cnNs8qc
 3. Quiz stolice - [odc. 9 pętle for i nauka stolic](https://www.youtube.com/watch?v=dD3PtNh8jCs&list=PL3yDCQ6GKeEyBOF0gZyBvihDv6n0GNsdm&index=10)
 
 4. Podaj liczbe - [odc. 10 Instrukcje try i except](https://www.youtube.com/watch?v=hPrmbi-LOic&index=11&list=PL3yDCQ6GKeEyBOF0gZyBvihDv6n0GNsdm)
+
+5. Mnozenie podanych liczb - [odc. 12 Procedury zwracające wartość](https://www.youtube.com/watch?v=lRXDVloYHSU&index=13&list=PL3yDCQ6GKeEyBOF0gZyBvihDv6n0GNsdm)

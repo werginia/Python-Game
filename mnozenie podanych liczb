@@ -1,0 +1,10 @@
+def pobierzliczbe (tekst):
+  while True:
+    x = input('Podaj ' + tekst + 'liczbe:')
+    try:
+      x = int(x)
+      break
+    except:
+      print('Nie podales liczby')
+  return x 
+print(pobierzliczbe('pierwsza ') * pobierzliczbe('druga '))

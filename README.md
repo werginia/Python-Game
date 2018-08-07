@@ -12,3 +12,5 @@ na podstawie [Python Kurs programowania](https://www.youtube.com/watch?v=cnNs8qc
 4. Podaj liczbe - [odc. 10 Instrukcje try i except](https://www.youtube.com/watch?v=hPrmbi-LOic&index=11&list=PL3yDCQ6GKeEyBOF0gZyBvihDv6n0GNsdm)
 
 5. Mnozenie podanych liczb - [odc. 12 Procedury zwracające wartość](https://www.youtube.com/watch?v=lRXDVloYHSU&index=13&list=PL3yDCQ6GKeEyBOF0gZyBvihDv6n0GNsdm)
+
+6. Tworzenie graficznego interfejsu użytkownika korzystając z biblioteki Tkinter - [odc. 15 GUI part. 1](https://www.youtube.com/watch?v=hMmtQPI2ykc&list=PL3yDCQ6GKeEyBOF0gZyBvihDv6n0GNsdm&index=16)

@@ -1,0 +1,45 @@
+import tkinter, sys, random
+from tkinter import messagebox
+
+def zmiana():
+    global liczba
+    liczba = random.randint(1, s.get())
+def koniec():
+    sys.exit()
+def sprawdz():
+    sam = int(e.get())
+    if sam < liczba:
+        messagebox.showinfo(title='Uwaga!', message='Sprobuj jeszcze raz! Moja liczba jest wieksza.')
+    if sam > liczba:
+        messagebox.showinfo(title='Uwaga!', message='Sprobuj jeszcze raz! Moja liczba jest mniejsza.')
+    if sam == liczba:
+            messagebox.showinfo(title='Gratulacje!', message='Brawo, zgadles moja liczbe!')
+def nowagra():
+    liczba = random.randint(1, s.get())
+    sam = 0
+    l.config(text='')
+
+random.seed()
+main = tkinter.Tk()
+
+liczba = random.randint(3, 10)
+sam = 0
+
+e = tkinter.Entry(main, justify='center')
+l = tkinter.Label(main, text='Przesuwając suwakiem zmień zakres liczb:')
+b = tkinter.Button(main, text='Zakończ', command = koniec)
+b2 = tkinter.Button(main, text='Sprawdz', command = sprawdz)
+b3 = tkinter.Button(main, text='Rozpocznij nową grę', command = nowagra)
+s = tkinter.Scale(main, orient = 'horizontal', to_=1000, length= 250, from_=3)
+l2 = tkinter.Label(main, text = 'Wprowadź liczbę:')
+
+
+l.pack()
+s.pack()
+l2.pack()
+
+e.pack()
+b2.pack()
+b3.pack()
+b.pack()
+main.mainloop()
